@@ -1,0 +1,86 @@
+body {
+	height: 800px;
+	border: 3px solid #0b0927;
+	margin: 1%;
+	padding: 0% 0%;	
+}
+
+#top-container {
+	min-height: 30%;
+	background-color: #ffffef;
+	margin-bottom: 10px;
+}
+
+#top-container a:link {
+	text-decoration: none;
+}
+
+h1 {
+	margin: 5px 3px 0px 3px;
+	padding: 50px;
+	font-size: 60px;
+	color: black;
+	font-family: 'Henny Penny', cursive;
+}
+
+
+#liquors {
+	text-align: center;
+	width: 100%;
+}
+
+#bottom-container {
+	width: 100%;
+	min-height: 600px;
+	margin-top: 0px;
+	padding-top: 30px;
+	text-align: center;
+	background: url("img/cocktail_background.png") center scroll;
+
+}
+button {
+	float: center;
+}
+
+#entry-area {
+	text-align: center;
+	height: 100px;
+	width: 100px;
+	cursor: pointer;
+	font-size: 4em;
+	background-color: #fffffe;
+}
+
+#underage {
+	padding-top: 30px;
+	text-align: center;
+	color: black;
+	display: none;
+}
+
+#underage img {
+	max-width: 80%;
+}
+
+#underage p {
+	font-size: 20px;
+}
+
+#liquor-preference ul{
+	list-style: none;
+	display: inline-block;
+	width: 100%;
+	font-style: italic;
+	text-align: center;
+	float: center;
+	display: none;
+}
+
+
+#liquor-preference li {
+	float: left;
+	width: 20%;
+	margin-right: 5%;
+	font-size: 1.5em;
+	text-align: center;
+}	
